@@ -66,18 +66,6 @@ python demo_test.py   -i demo/demo.jpg
 
 ### Evaluation
 
-  1. Please build the CPP code first.  
-  2. Then modify `root` as absolute project path in `utils/lane_evaluation/CULane/Run.sh`.
-
-  ```bash
-  cd utils/lane_evaluation/CULane
-  mkdir build && cd build
-  cmake ..
-  make
-  ```
-
-  Result will be saved into corresponding `exp_dir` directory, 
-
   ``` shell
   python test_CULane.py --exp_dir ./experiments/exp10
   ```
