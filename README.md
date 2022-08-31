@@ -76,7 +76,7 @@ python demo_test.py   -i demo/demo.jpg
   make
   ```
 
-  Just run the evaluation script. Result will be saved into corresponding `exp_dir` directory, 
+  Result will be saved into corresponding `exp_dir` directory, 
 
   ``` shell
   python test_CULane.py --exp_dir ./experiments/exp10
