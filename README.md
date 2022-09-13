@@ -75,7 +75,7 @@ python demo_test.py   -i demo/demo.jpg
   ```Shell
   python test_tusimple.py --exp_dir ./experiments/exp0
   ```
-  ![scnnroad](https://user-images.githubusercontent.com/56112545/189867248-1fba090b-f3a5-484c-bf7b-cec77ab99324.jpg)
-![binary_output_final](https://user-images.githubusercontent.com/56112545/189867275-284fc685-c929-46ad-a5da-181c3408032d.jpg)
+  ![228_frame6347_leftImg8bit](https://user-images.githubusercontent.com/56112545/189867589-9c3ff5dd-cafd-4499-8b53-39e5400bd4c3.jpg)
+![228_frame6347_leftImg8bit](https://user-images.githubusercontent.com/56112545/189867622-77173af7-ac13-468b-a99d-d873c44de6fa.jpg)
 
   
