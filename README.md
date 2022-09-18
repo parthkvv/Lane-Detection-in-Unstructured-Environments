@@ -1,4 +1,4 @@
-### Prepare CULane data 
+### CULane format data 
 
 ```
 CULane
@@ -15,7 +15,7 @@ CULane
 
  Note: Enter absolute path.
 
-### Prepare Tusimple data 
+### Tusimple format data 
 
 ```
 Tusimple
