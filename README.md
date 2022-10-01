@@ -1,4 +1,20 @@
-### CULane format data 
+### Dataset Preparation
+	set the path till "dataset\train_set" in config.py file
+
+	"dataset\train_set" directory should consist of following files:
+		"train_img" - Folder containing all the ground truth images
+		"train_seg_img" - Folder containing all the binary label images
+
+		"val_img" - Folder containing all the ground truth images
+		"val_seg_img" - Folder containing all the binary label images
+	
+	txt_file_gen_SCNN.py
+		- generate txt files from image dataset, saved in dataset/train_set/seg_label/list
+		  "train_gt.txt"
+		  "val_gt.txt"
+		  "test_gt.txt"	
+
+### (OPTIONAL) CULane format data 
 
 ```
 CULane
@@ -15,7 +31,7 @@ CULane
 
  Note: Enter absolute path.
 
-### Tusimple format data 
+### (OPTIONAL) Tusimple format data 
 
 ```
 Tusimple
