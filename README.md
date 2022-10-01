@@ -68,10 +68,17 @@ python demo_test.py   -i demo/demo.jpg
 
 2. Modify the hyperparameters in `experiments/exp0/cfg.json`.
 
+	saved models
+	- \experiments\exp0\
+
+	Number of epochs 
+	- \experiments\exp0\cfg.json
+	"MAX_EPOCHES": 60
+
 3. Start training:
 
    ```shell
-   python train.py --exp_dir ./experiments/exp0 [--resume/-r]
+	- tools/train.py --exp_dir ./experiments/exp0 [--resume/-r]
    ```
 
 4. Monitor on tensorboard:
@@ -80,7 +87,7 @@ python demo_test.py   -i demo/demo.jpg
    tensorboard --logdir='experiments/exp0'
    ```
 
-### Evaluation
+### Test
 
   ``` shell
   python test_CULane.py --exp_dir ./experiments/exp10
