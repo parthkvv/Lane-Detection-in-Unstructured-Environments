@@ -14,7 +14,7 @@
 		  "val_gt.txt"
 		  "test_gt.txt"	
 
-### (OPTIONAL) CULane format data 
+### CULane format data (Optional) 
 
 ```
 CULane
@@ -31,7 +31,7 @@ CULane
 
  Note: Enter absolute path.
 
-### (OPTIONAL) Tusimple format data 
+### Tusimple format data (Optional) 
 
 ```
 Tusimple
