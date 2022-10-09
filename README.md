@@ -111,6 +111,6 @@ python demo_test.py   -i demo/demo.jpg
   
   
   
-### DEMO
+### Demo
 ![lane_final](https://user-images.githubusercontent.com/56112545/190910553-29415c2e-218e-40fe-a40d-132df58852a5.gif)
 
